@@ -8,6 +8,27 @@ Unfair advantage = Less Enjoyment
 <a href="https://github.com/Ragavendaran/Unity-PlayerPrefs-ToTheCore/releases/latest"><img alt="GitHub release (latest by SemVer including pre-releases)" src="https://img.shields.io/github/downloads-pre/Ragavendaran/Unity-PlayerPrefs-ToTheCore/latest/total"></a>
 <a href="https://github.com/Ragavendaran/Unity-PlayerPrefs-ToTheCore/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Ragavendaran/Unity-PlayerPrefs-ToTheCore"></a>
 </p>
+Release v0.1.0 [ToTheCore]
+
+Compiled release of v0.1.0
+ToTheCore Latest Release Date [Aug 14, 2023] as of Release
+
+
+
+Release v0.1.0 ToTheCore
+
+
+# Compiled release of `v0.1.0`
+ToTheCore Latest Release Date `Aug 14, 2023` as of Release
+
+# Requirements
+- Windows
+- .NET 6.0
+
+
+
+
+
 
 # Introduction
 
@@ -48,7 +69,11 @@ Windows may have different versions accompanying every .NET version installed, i
 
  1. Make sure MSBuild.exe is in PATH and accessible
 
- 2. Run the below command inside the cloned repository folder
+ 2. Run the below commands inside the cloned repository folder
+
+```shell
+dotnet restore
+```
 
 ```shell
 msbuild UnityPlayerPrefsEditor.sln /t:Build /p:Configuration=Release /p:TargetFrameworkVersion=v6.0
